@@ -3136,7 +3136,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 168.91 91.7574 90)
 			(effects
 				(font
@@ -3219,7 +3219,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 142.24 91.7574 90)
 			(effects
 				(font
@@ -3594,7 +3594,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 151.13 91.7574 90)
 			(effects
 				(font
@@ -3750,7 +3750,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 133.35 91.7574 90)
 			(effects
 				(font
@@ -4034,7 +4034,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 124.46 91.7574 90)
 			(effects
 				(font
@@ -4117,7 +4117,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 106.68 91.7574 90)
 			(effects
 				(font
@@ -4389,7 +4389,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 160.02 91.7574 90)
 			(effects
 				(font
@@ -4472,7 +4472,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 115.57 91.7574 90)
 			(effects
 				(font

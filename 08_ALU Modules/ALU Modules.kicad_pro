@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|105860412|90335587|7165a60b-39fc-4186-9cb3-0a42eda56683|5f9543ca-35b0-4617-ba76-86ba328a1298|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|108940000|130210000|743c2317-7304-4233-8b00-c588249188fe|3149929a-5be0-4bc5-a957-50596a7bd739|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|108940000|142705000|743c2317-7304-4233-8b00-c588249188fe|8eab2cfc-d17f-4c14-a595-3fd25545b868|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|143870412|91796412|7165a60b-39fc-4186-9cb3-0a42eda56683|74bfb0a0-4492-4bb4-8d54-a7ed6a356456|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|80380412|77489587|7165a60b-39fc-4186-9cb3-0a42eda56683|3c16f848-7352-40dc-80ac-f26bdeb7bceb|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -502,7 +523,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

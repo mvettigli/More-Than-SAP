@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|137410000|85470000|b8574c08-2bcf-4e2c-b481-3f635bcdd70b|b89fcf92-d0b5-4e1b-b8ad-f1f60bc21d6b|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|85019589|84739589|e9d971d0-e0df-470f-89e7-6b0e1a3bb6f5|d52c3171-c55d-4575-bf01-057851068704|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -123,7 +132,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -136,7 +145,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -241,7 +250,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1358900|381000|91550507-fe1b-491c-aa01-1ca7f6161ca3|00000000-0000-0000-0000-000000000000|/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9/4a3fbae8-e7c1-4a2e-84c1-acbd9428ce0c|/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9/4a3fbae8-e7c1-4a2e-84c1-acbd9428ce0c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1358900|762000|c769c2fe-c582-4979-b4f6-646e0950c164|00000000-0000-0000-0000-000000000000|/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9/4a3fbae8-e7c1-4a2e-84c1-acbd9428ce0c|/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9/4a3fbae8-e7c1-4a2e-84c1-acbd9428ce0c|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -466,7 +484,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ALU Controls.kicad_pro",
+    "filename": "Stack Pointer.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -626,20 +644,28 @@
   },
   "sheets": [
     [
-      "467f3bd9-3b72-47f3-8962-bc0cb708391a",
+      "67f85d1f-fa07-4d32-87fd-2c14cd08dcf9",
       "Root"
     ],
     [
-      "98fae848-2217-4ef6-97d1-bac56b859b9c",
-      "Operator Selector"
+      "4a3fbae8-e7c1-4a2e-84c1-acbd9428ce0c",
+      "Stack Pointer"
     ],
     [
-      "9f681643-045f-45cc-b43e-c78c303ca585",
-      "Operand Selector"
+      "90d7dcde-2baa-43ec-a773-e151ba4ed74e",
+      "Stack pointer LSB"
     ],
     [
-      "c7690721-7daf-4bcd-8a4c-0b9b86655a32",
-      "Alu-Out Control"
+      "8ff09ec4-c8a1-419a-a21b-60552d1908ac",
+      "Stack Pointer MSB"
+    ],
+    [
+      "39991ff1-be0e-4b82-a655-3f46790395bf",
+      "LSB Selector"
+    ],
+    [
+      "651b98a4-5775-4fa8-a78b-eaad58146f46",
+      "MSB Selector"
     ]
   ],
   "text_variables": {}

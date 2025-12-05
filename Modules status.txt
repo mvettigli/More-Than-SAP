@@ -1,14 +1,14 @@
-
+Module name                 Version Ordered
+--------------------------- ------- -------
 00_Clock and Power Supply   1.1     Yes
 01_Generic Registers        1.1     Yes
 02_Count Registers          1.1     Yes
 03_Shift Registers
 04_Memory Modules           1.1     Yes
 05_Program Counter          1.1
-06_Instruction Register
-07_ALU Control
-08_ALU Arithmetic
-09_ALU Logic
-10_Stack Pointer
-11_Output Register
-12_Control Units            1.1     Yes
+06_Instruction Register     1.1
+07_ALU Controls             1.0
+08_ALU Modules              1.0
+09_Stack Pointer            1.0
+10_Output Register
+11_Control Units            1.1     Yes

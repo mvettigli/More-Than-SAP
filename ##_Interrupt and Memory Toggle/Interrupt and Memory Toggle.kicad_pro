@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ALU Controls.kicad_pro",
+    "filename": "Interrupt and Memory Toggle.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -626,20 +626,16 @@
   },
   "sheets": [
     [
-      "467f3bd9-3b72-47f3-8962-bc0cb708391a",
+      "3e3345e3-6c70-4e09-9c42-7fcd1086e572",
       "Root"
     ],
     [
-      "98fae848-2217-4ef6-97d1-bac56b859b9c",
-      "Operator Selector"
+      "861cc557-97fc-46b9-a4cd-67f0c1f1c6a1",
+      "Memory Toggle"
     ],
     [
-      "9f681643-045f-45cc-b43e-c78c303ca585",
-      "Operand Selector"
-    ],
-    [
-      "c7690721-7daf-4bcd-8a4c-0b9b86655a32",
-      "Alu-Out Control"
+      "78ba305e-5d72-444c-ac59-8538e2a520c0",
+      "Interrupt"
     ]
   ],
   "text_variables": {}
