@@ -11,6 +11,113 @@
 		(company "Marco Vettigli")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -929,6 +1036,12 @@
 		(uuid "c1cadb96-e529-4d19-adfd-960e5ef897e7")
 	)
 	(junction
+		(at 172.72 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8767f70-a042-44d8-90f7-f097cf8dd64d")
+	)
+	(junction
 		(at 157.48 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -943,6 +1056,16 @@
 			(type default)
 		)
 		(uuid "11deadc9-553e-4e99-9878-a28b84c2e98f")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea95f3a-f14a-4a44-8f25-3b8b34db8885")
 	)
 	(wire
 		(pts
@@ -1076,6 +1199,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 85.09) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f30d05-4d88-4c32-b9e3-0c2451d8bac2")
+	)
+	(wire
+		(pts
 			(xy 157.48 76.2) (xy 187.96 76.2)
 		)
 		(stroke
@@ -1096,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 88.9) (xy 173.99 88.9)
+			(xy 170.18 88.9) (xy 172.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1289,7 @@
 	)
 	(hierarchical_label "Stable"
 		(shape output)
-		(at 173.99 88.9 0)
+		(at 175.26 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1278,7 +1411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c4bccdf-d165-4862-b8d2-2e597fde75f8")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 191.77 100.7109 0)
 			(effects
 				(font
@@ -1332,7 +1465,7 @@
 		(instances
 			(project "Clock and Power Supply"
 				(path "/dd2fa5d1-1d39-4336-8d0e-915c0713d390/6dbac2c2-5bf9-4152-89f2-bbea8d72f94c"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1348,7 +1481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b15f87d-1aeb-45a6-80cc-d2529e6dcc76")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 139.7 105.4099 0)
 			(effects
 				(font
@@ -1402,7 +1535,7 @@
 		(instances
 			(project "Clock and Power Supply"
 				(path "/dd2fa5d1-1d39-4336-8d0e-915c0713d390/6dbac2c2-5bf9-4152-89f2-bbea8d72f94c"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1472,6 +1605,73 @@
 			(project "Clock and Power Supply"
 				(path "/dd2fa5d1-1d39-4336-8d0e-915c0713d390/6dbac2c2-5bf9-4152-89f2-bbea8d72f94c"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 172.72 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c807c0d-13b9-4e30-ab50-6d1ad9866729")
+		(property "Reference" "TP4"
+			(at 175.26 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stable"
+			(at 175.26 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdc6b297-80fd-4f2d-98dc-c41eba01173a")
+		)
+		(instances
+			(project "Clock and Power Supply"
+				(path "/dd2fa5d1-1d39-4336-8d0e-915c0713d390/6dbac2c2-5bf9-4152-89f2-bbea8d72f94c"
+					(reference "TP4")
 					(unit 1)
 				)
 			)

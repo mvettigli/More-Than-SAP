@@ -243,12 +243,40 @@
   "erc": {
     "erc_exclusions": [
       [
-        "power_pin_not_driven|673100|1041400|4231bd8b-a2e4-48fe-ad43-bebaee91b997|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|",
-        ""
+        "pin_not_connected|2146300|368300|6e1eb662-28ff-44d1-aea1-d92bc588b9bb|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df|/0bbead8f-a697-49a3-a523-e82b541d79df|",
+        "VCC is power line!"
       ],
       [
-        "power_pin_not_driven|673100|558800|72bd1eb0-2b38-4c41-8ca0-0ba45579ffdf|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|",
-        ""
+        "pin_not_driven|660400|1511300|75eefc0a-a35c-4cbd-b2f6-cb7f063c0f53|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df|/0bbead8f-a697-49a3-a523-e82b541d79df|",
+        "not understood"
+      ],
+      [
+        "pin_not_driven|660400|1536700|75eefc0a-a35c-4cbd-b2f6-cb7f063c0f53|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df|/0bbead8f-a697-49a3-a523-e82b541d79df|",
+        "Not understood"
+      ],
+      [
+        "pin_not_driven|660400|609600|ac9936cf-1600-4db6-8fab-a97a29d5004b|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df|/0bbead8f-a697-49a3-a523-e82b541d79df|",
+        "not understood"
+      ],
+      [
+        "pin_not_driven|660400|635000|ac9936cf-1600-4db6-8fab-a97a29d5004b|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df|/0bbead8f-a697-49a3-a523-e82b541d79df|",
+        "Not understood"
+      ],
+      [
+        "power_pin_not_driven|749300|1104900|4231bd8b-a2e4-48fe-ad43-bebaee91b997|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|",
+        "VCC is power line!"
+      ],
+      [
+        "power_pin_not_driven|749300|622300|72bd1eb0-2b38-4c41-8ca0-0ba45579ffdf|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|",
+        "VCC is power line!"
+      ],
+      [
+        "power_pin_not_driven|850900|444500|72bd1eb0-2b38-4c41-8ca0-0ba45579ffdf|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|",
+        "VCC is power line!"
+      ],
+      [
+        "power_pin_not_driven|850900|927100|4231bd8b-a2e4-48fe-ad43-bebaee91b997|00000000-0000-0000-0000-000000000000|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|/0bbead8f-a697-49a3-a523-e82b541d79df/90ecf48f-7602-4a23-a4bc-88d6dc99165f|",
+        "GND is power line!"
       ]
     ],
     "meta": {

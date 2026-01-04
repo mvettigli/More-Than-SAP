@@ -58,7 +58,96 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|103370000|67085000|59422237-bb3d-445f-83ab-5977c9865e7b|5edefca9-fc33-4b1e-9f41-f9248b829c9a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|106085000|112040000|59422237-bb3d-445f-83ab-5977c9865e7b|99123a49-d55e-4e60-8577-e48e6949044a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|112770412|68894587|59422237-bb3d-445f-83ab-5977c9865e7b|d14a5c51-1ea4-429b-9980-b862381c517f|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|116134588|112770412|97a1b60a-4369-40b2-8e79-efef2507e3c9|dc6aead2-3491-4bc8-8bbc-289e7bea4d5e|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|117109589|99279589|97a1b60a-4369-40b2-8e79-efef2507e3c9|700c211f-022d-4b6d-8beb-cfee0c56185c|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|119300412|81594588|97a1b60a-4369-40b2-8e79-efef2507e3c9|a87ecac9-4537-4a32-ba2d-7017cb7c6ba9|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|120920000|127280000|59422237-bb3d-445f-83ab-5977c9865e7b|2d171961-2228-4978-a03b-bd6b1fc9469d|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|121110412|99279587|97a1b60a-4369-40b2-8e79-efef2507e3c9|879c9219-2dce-49f8-b2a2-fb5222002752|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|130444589|106169589|97a1b60a-4369-40b2-8e79-efef2507e3c9|b2170ae1-257b-4861-b757-74766b9bc41a|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|84585412|101014587|59422237-bb3d-445f-83ab-5977c9865e7b|79a8864f-8469-49a7-842a-0928555ef4ff|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|87000000|63300000|59422237-bb3d-445f-83ab-5977c9865e7b|152db5d9-efd5-48d8-949a-fd6aee6ce33e|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|93208750|82335000|59422237-bb3d-445f-83ab-5977c9865e7b|3b2380c3-a4c7-4739-bf5b-08e11ee77d79|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|99750000|63325000|97a1b60a-4369-40b2-8e79-efef2507e3c9|4ffb229c-ebd5-4627-ad99-faa0681387c0|B.Cu",
+          ""
+        ],
+        [
+          "text_height|106050000|105500000|e715200e-f30c-448c-9574-ab9cee3c30d2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|107525000|91100000|ec06cb0f-595f-4e79-bedb-a2f3eec0c3ae|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|110850000|63325000|70438316-a339-4327-9366-226c2da5386b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|116825000|105550000|a87bf396-36a4-4274-b63b-d2c5aafb7fe7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|119775000|87475000|9f20ac61-d25e-42a3-89a8-f350faee64f9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|131175000|105650000|67f3325b-16f5-47bc-a262-0394ee02f9cf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|64150000|128575000|0ec01779-667b-4c40-8867-2cd991d5fd13|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|76250000|128550000|eac66434-7db2-4f0f-9e93-8d9e5d5b711c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|83890000|90975000|0aa911f7-58c3-4b8b-b319-8ab4e8d07d19|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -241,7 +330,40 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2260600|533400|9f35429d-0ad3-4c1e-91c2-f5fe3d0a94cb|c9d84a74-80be-4fe8-ab89-34f9e0efe3e2|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b",
+        ""
+      ],
+      [
+        "pin_to_pin|2260600|584200|012074b9-bb90-494b-bee0-7242352c7786|c44f2c93-3d7f-4c02-bec6-b13e61131bd0|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b",
+        ""
+      ],
+      [
+        "pin_to_pin|2260600|635000|cf4b12a5-48e7-44db-96a4-3fe381b06c97|ef6bcf35-a22c-4e9d-b948-74e442524939|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b",
+        ""
+      ],
+      [
+        "pin_to_pin|2260600|685800|11da24f2-1d48-4685-8ab9-57818bb35af7|0b251eb9-f5cb-4e81-bfe5-7e6a1948611f|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b",
+        ""
+      ],
+      [
+        "pin_to_pin|2260600|736600|cfaf6dfc-f67e-4e69-a784-b1454e70c312|2646de1d-c496-4156-b821-14e247687477|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b",
+        ""
+      ],
+      [
+        "pin_to_pin|2260600|787400|808f14f6-13d3-4b6b-a94f-cec8bb336ea8|b61287e3-1c6f-4081-b069-09e53d95a272|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b",
+        ""
+      ],
+      [
+        "pin_to_pin|2260600|838200|7467408d-de22-4cac-b6d6-34617ac1b2df|e6c25f8f-9e7f-4c01-8a51-03fdd865ce16|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b",
+        ""
+      ],
+      [
+        "pin_to_pin|2260600|889000|90fbf288-86e6-404d-8b68-6a099c9b6deb|7e4209e5-0772-4062-b014-353ad62c46ed|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b|/467f3bd9-3b72-47f3-8962-bc0cb708391a/a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -575,12 +697,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -612,6 +752,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -640,6 +788,30 @@
     [
       "c7690721-7daf-4bcd-8a4c-0b9b86655a32",
       "Alu-Out Control"
+    ],
+    [
+      "26bf2f61-276f-49f7-8c53-db3cbf5ce8cb",
+      "Memory Toggle0"
+    ],
+    [
+      "8d7803e0-b1fe-4106-952d-167ba2a7ce74",
+      "Memory Selector"
+    ],
+    [
+      "310cb6f8-be2b-4bc8-ba1a-2c4a7a12d22d",
+      "Memory Toggle1"
+    ],
+    [
+      "ffc3f4e0-3cc5-4255-8124-378df0b627d8",
+      "Memory Toggle2"
+    ],
+    [
+      "a1ee7621-fd5f-4c3f-bf71-04e7ed6b649b",
+      "Flag Register"
+    ],
+    [
+      "0a604abf-464a-40ba-98a9-e7170fa2ceb4",
+      "Memory Toggle3"
     ]
   ],
   "text_variables": {}

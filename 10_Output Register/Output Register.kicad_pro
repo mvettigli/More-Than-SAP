@@ -58,7 +58,76 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|103085000|103565000|b8574c08-2bcf-4e2c-b481-3f635bcdd70b|a4c47b94-83a7-4c99-8ea3-1f8b927d8e24|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|103815412|92674587|b8574c08-2bcf-4e2c-b481-3f635bcdd70b|032566a9-8726-48c5-b620-45c37259bf42|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|103815412|96675412|b8574c08-2bcf-4e2c-b481-3f635bcdd70b|ac8cf1b2-c3b7-41ac-a91d-bf73bc9f5b4d|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|107744587|68335412|b8574c08-2bcf-4e2c-b481-3f635bcdd70b|f905bc0e-56b5-4e9e-8bd0-7f33632248af|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|120450000|57625000|e9d971d0-e0df-470f-89e7-6b0e1a3bb6f5|290a68c4-3775-4dad-ad7e-bb048227cf2a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|65349587|101020412|e9d971d0-e0df-470f-89e7-6b0e1a3bb6f5|c590e4da-2a55-42d6-86a9-959f6bc930c3|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|66810412|99559587|b8574c08-2bcf-4e2c-b481-3f635bcdd70b|c590e4da-2a55-42d6-86a9-959f6bc930c3|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|79672043|88220455|b8574c08-2bcf-4e2c-b481-3f635bcdd70b|b2543ecc-348f-4a4a-86b6-f7bbc5df8a05|B.Cu",
+          ""
+        ],
+        [
+          "text_height|107225000|57375000|d04670b5-192a-436b-9e88-e76ac9a66481|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|111980000|83125000|521874ef-36f0-4fbe-b67a-20ed7a826aa2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|121700000|57625000|371a9c75-ebf3-4935-a2a1-cb0ce8601406|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|126030000|83125000|ccb8d05f-1f23-42b4-8a6a-854b79f4d49d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|130275000|61550000|52bcc888-e8ec-4af1-a088-8c702f229342|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|139380000|57675000|bab98f54-fb14-4e6e-afa1-546c8ddbc6cd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|143350000|66725000|8a474b57-35e9-437f-8be8-2fbf0d8bd49e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|72435000|74635000|3ba3f4dd-c286-4be0-ba06-7f2b30a24ba3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|81575000|106295000|539c4781-5153-42ba-9471-19d6a63ef522|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -466,7 +535,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Interrupt and Memory Toggle.kicad_pro",
+    "filename": "Output Register.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -612,6 +681,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -626,16 +703,28 @@
   },
   "sheets": [
     [
-      "3e3345e3-6c70-4e09-9c42-7fcd1086e572",
+      "67f85d1f-fa07-4d32-87fd-2c14cd08dcf9",
       "Root"
     ],
     [
-      "861cc557-97fc-46b9-a4cd-67f0c1f1c6a1",
-      "Memory Toggle"
+      "c4ce2094-4e4a-4650-9a71-68f71cc7481c",
+      "Data-In Selector"
     ],
     [
-      "78ba305e-5d72-444c-ac59-8538e2a520c0",
-      "Interrupt"
+      "710b2abd-1492-4ec7-9e35-ed3bb4c6e99b",
+      "Output Register"
+    ],
+    [
+      "0f7525d5-832f-4016-bd82-09cc901f63f0",
+      "Clock"
+    ],
+    [
+      "926a0ee1-e5e7-463c-84c8-a3b7e4b761e3",
+      "Counter and Selector"
+    ],
+    [
+      "4aa3802e-11e3-451e-b2a7-49742df2bea3",
+      "Jumper Box"
     ]
   ],
   "text_variables": {}

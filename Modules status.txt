@@ -2,7 +2,7 @@ Module name                 Version Ordered
 --------------------------- ------- -------
 00_Clock and Power Supply   1.1     Yes
 01_Generic Registers        1.1     Yes
-02_Count Registers          1.1     Yes
+02_Count Registers          1.2     No (1.1)
 03_Shift Registers
 04_Memory Modules           1.1     Yes
 05_Program Counter          1.1

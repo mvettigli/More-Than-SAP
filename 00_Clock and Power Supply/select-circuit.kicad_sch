@@ -5,7 +5,7 @@
 	(uuid "e0846d7a-5039-4e42-8740-25ab39db770c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xx:74LS01"
+		(symbol "74xx:74LS00"
 			(pin_names
 				(offset 1.016)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "74LS01"
+			(property "Value" "74LS00"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
+			(property "Description" "quad 2-input NAND gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TTL nand 2-input open collector"
+			(property "ki_keywords" "TTL nand 2-input"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm* SO14*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "74LS01_1_1"
+			(symbol "74LS00_1_1"
 				(arc
 					(start 0 3.81)
 					(mid 3.7934 0)
@@ -108,42 +108,6 @@
 				)
 				(pin input line
 					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector inverted
-					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
 						(effects
@@ -160,8 +124,44 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "74LS01_1_2"
+			(symbol "74LS00_1_2"
 				(arc
 					(start -3.81 3.81)
 					(mid -2.589 0)
@@ -238,6 +238,24 @@
 				)
 				(pin input inverted
 					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
 					(length 4.318)
 					(name "~"
 						(effects
@@ -254,9 +272,9 @@
 						)
 					)
 				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -272,26 +290,8 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "74LS01_2_1"
+			(symbol "74LS00_2_1"
 				(arc
 					(start 0 3.81)
 					(mid 3.7934 0)
@@ -318,42 +318,6 @@
 				)
 				(pin input line
 					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector inverted
-					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
 						(effects
@@ -370,8 +334,44 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "74LS01_2_2"
+			(symbol "74LS00_2_2"
 				(arc
 					(start -3.81 3.81)
 					(mid -2.589 0)
@@ -448,6 +448,24 @@
 				)
 				(pin input inverted
 					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
 					(length 4.318)
 					(name "~"
 						(effects
@@ -464,9 +482,9 @@
 						)
 					)
 				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -482,26 +500,8 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "74LS01_3_1"
+			(symbol "74LS00_3_1"
 				(arc
 					(start 0 3.81)
 					(mid 3.7934 0)
@@ -536,7 +536,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -554,7 +554,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -562,7 +562,7 @@
 						)
 					)
 				)
-				(pin open_collector inverted
+				(pin output inverted
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -572,7 +572,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -581,7 +581,7 @@
 					)
 				)
 			)
-			(symbol "74LS01_3_2"
+			(symbol "74LS00_3_2"
 				(arc
 					(start -3.81 3.81)
 					(mid -2.589 0)
@@ -666,7 +666,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -684,7 +684,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -692,7 +692,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin output line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -702,7 +702,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -711,7 +711,7 @@
 					)
 				)
 			)
-			(symbol "74LS01_4_1"
+			(symbol "74LS00_4_1"
 				(arc
 					(start 0 3.81)
 					(mid 3.7934 0)
@@ -746,7 +746,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -764,7 +764,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -772,7 +772,7 @@
 						)
 					)
 				)
-				(pin open_collector inverted
+				(pin output inverted
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -782,7 +782,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -791,7 +791,7 @@
 					)
 				)
 			)
-			(symbol "74LS01_4_2"
+			(symbol "74LS00_4_2"
 				(arc
 					(start -3.81 3.81)
 					(mid -2.589 0)
@@ -876,7 +876,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -894,7 +894,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -902,7 +902,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin output line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -912,7 +912,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -921,7 +921,7 @@
 					)
 				)
 			)
-			(symbol "74LS01_5_0"
+			(symbol "74LS00_5_0"
 				(pin power_in line
 					(at 0 12.7 270)
 					(length 5.08)
@@ -959,7 +959,7 @@
 					)
 				)
 			)
-			(symbol "74LS01_5_1"
+			(symbol "74LS00_5_1"
 				(rectangle
 					(start -5.08 7.62)
 					(end 5.08 -7.62)
@@ -969,6 +969,113 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1363,6 +1470,18 @@
 		(uuid "81755faf-5df9-4a0a-bfe1-65f49271e05d")
 	)
 	(junction
+		(at 157.48 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89522b44-bc84-4ffe-85d7-c9c08045893a")
+	)
+	(junction
+		(at 146.05 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1449fe4-6915-41df-9301-104ef636a732")
+	)
+	(junction
 		(at 251.46 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1373,12 +1492,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1a5dd30-add9-4d5a-987b-b44bad89c1b9")
-	)
-	(junction
-		(at 152.4 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e81bafaf-947d-4b2e-bc6b-c15b77f67b0a")
 	)
 	(no_connect
 		(at 270.51 139.7)
@@ -1410,6 +1523,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 109.22) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28316e0c-544b-491c-af5d-a3db36673ffe")
+	)
+	(wire
+		(pts
 			(xy 120.65 97.79) (xy 120.65 100.33)
 		)
 		(stroke
@@ -1430,7 +1553,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 93.98) (xy 152.4 109.22)
+			(xy 146.05 93.98) (xy 146.05 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1490,6 +1613,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 105.41) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5812d03f-3aab-4b79-b053-fecea642c8fb")
+	)
+	(wire
+		(pts
 			(xy 148.59 97.79) (xy 129.54 97.79)
 		)
 		(stroke
@@ -1497,6 +1630,16 @@
 			(type default)
 		)
 		(uuid "59c32b54-eecb-487c-84d0-56d538b316e3")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f91b96f-f669-4461-81f5-6cd8c0d779fd")
 	)
 	(wire
 		(pts
@@ -1560,16 +1703,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 158.75 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e162c0d-2a0a-4add-986e-214a0000b6e3")
-	)
-	(wire
-		(pts
 			(xy 255.27 158.75) (xy 251.46 158.75)
 		)
 		(stroke
@@ -1610,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 152.4 93.98)
+			(xy 129.54 93.98) (xy 146.05 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1783,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 109.22) (xy 152.4 109.22)
+			(xy 144.78 109.22) (xy 146.05 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +1813,7 @@
 	)
 	(hierarchical_label "Select"
 		(shape output)
-		(at 158.75 109.22 0)
+		(at 162.56 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1756,7 +1889,7 @@
 		(uuid "d9fc5947-b474-4c36-9132-2b60550a8b48")
 	)
 	(symbol
-		(lib_id "74xx:74LS01")
+		(lib_id "74xx:74LS00")
 		(at 137.16 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1764,7 +1897,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "183f1405-e817-4934-ad11-cd9b722a8291")
+		(uuid "18acdeee-3674-4b92-845c-1a29611874a0")
 		(property "Reference" "U4"
 			(at 137.1517 74.93 0)
 			(effects
@@ -1773,7 +1906,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS01"
+		(property "Value" "74LS00"
 			(at 137.1517 77.47 0)
 			(effects
 				(font
@@ -1790,7 +1923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -1799,7 +1932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
+		(property "Description" "quad 2-input NAND gate"
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -1807,48 +1940,48 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "14"
-			(uuid "978d5c9e-ec86-45bf-8a65-5f3422dbcb1f")
-		)
-		(pin "6"
-			(uuid "5f394ea2-95f6-419b-b9d1-bc8ab64db2c9")
-		)
-		(pin "3"
-			(uuid "674a5345-d7c6-4cc5-a024-1612ea8a0d48")
-		)
-		(pin "2"
-			(uuid "f6c7a0a2-c7ae-41e6-a7b3-20a3ab7a93e3")
-		)
-		(pin "1"
-			(uuid "2c8250c1-9c78-4e5b-9db4-5b53b9ea1542")
-		)
-		(pin "10"
-			(uuid "1616403c-a72e-40ab-84f2-68316ac6cc97")
-		)
-		(pin "11"
-			(uuid "f2aa9c3d-10d5-48fe-92d9-0b2262a3451d")
-		)
-		(pin "12"
-			(uuid "de905761-26aa-4e19-86b8-448b33948dbc")
-		)
-		(pin "9"
-			(uuid "6594b7ed-ba91-45d9-9ffd-7227c973deff")
-		)
-		(pin "8"
-			(uuid "98e86219-1b52-4419-be4b-322024f30dac")
-		)
-		(pin "4"
-			(uuid "bfc3840a-c65e-4ea2-8761-f28a6720a8d7")
 		)
 		(pin "13"
-			(uuid "26c3d35d-572d-435a-8d96-1a867b0ca949")
+			(uuid "1a065bc7-aed0-426d-a4c7-bcb6936fdefd")
+		)
+		(pin "14"
+			(uuid "2ce974ca-780a-45e1-ae48-c41a137f37dd")
 		)
 		(pin "5"
-			(uuid "edde6821-df4c-4242-ae5c-a7f09ff3cc4f")
+			(uuid "1ef29452-cdee-4695-abb8-a059ab601bcd")
+		)
+		(pin "11"
+			(uuid "d9c96de8-d4b9-48bf-89b5-a097e5b486de")
+		)
+		(pin "10"
+			(uuid "1f2fa14a-5840-4a7c-a654-25c8bbd2f4c5")
+		)
+		(pin "9"
+			(uuid "881f3c77-1636-4e60-82d8-ce75316b6224")
+		)
+		(pin "3"
+			(uuid "2cff7cc3-25ca-4ea0-9d48-b20d51031a70")
+		)
+		(pin "12"
+			(uuid "f084e2e3-b49c-48c0-ad10-b57903b182c1")
+		)
+		(pin "8"
+			(uuid "24e6160a-1284-4e5f-a519-2432fdf11e1c")
 		)
 		(pin "7"
-			(uuid "eaf70d14-4077-4b62-b0bb-7aad348e6733")
+			(uuid "67bd7076-ece2-4874-8e75-cb3e6506c1b5")
+		)
+		(pin "2"
+			(uuid "2f2ffc65-e37f-4eba-be92-ca7e1ae5ee74")
+		)
+		(pin "1"
+			(uuid "84cc01e0-4c7e-4953-a47a-9bf2f3642970")
+		)
+		(pin "6"
+			(uuid "cbd3efed-b1f9-4640-b38d-4c20e8b04c24")
+		)
+		(pin "4"
+			(uuid "b02ae2fd-e02f-46d9-b8b1-df0f0a06f1c6")
 		)
 		(instances
 			(project ""
@@ -1930,35 +2063,33 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS01")
-		(at 232.41 142.24 0)
-		(unit 5)
+		(lib_id "74xx:74LS00")
+		(at 262.89 139.7 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "64b8e378-cfad-423e-b434-67e02a5d654d")
+		(uuid "6ce9f516-9869-4d96-aba8-35cb2a18b2a4")
 		(property "Reference" "U4"
-			(at 238.76 140.9699 0)
+			(at 262.8817 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "74LS01"
-			(at 238.76 143.5099 0)
+		(property "Value" "74LS00"
+			(at 262.8817 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 232.41 142.24 0)
+			(at 262.89 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,8 +2097,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
-			(at 232.41 142.24 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 262.89 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,86 +2106,153 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
-			(at 232.41 142.24 0)
+		(property "Description" "quad 2-input NAND gate"
+			(at 262.89 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "14"
-			(uuid "978d5c9e-ec86-45bf-8a65-5f3422dbcb20")
-		)
-		(pin "6"
-			(uuid "5f394ea2-95f6-419b-b9d1-bc8ab64db2ca")
-		)
-		(pin "3"
-			(uuid "674a5345-d7c6-4cc5-a024-1612ea8a0d49")
-		)
-		(pin "2"
-			(uuid "f6c7a0a2-c7ae-41e6-a7b3-20a3ab7a93e4")
-		)
-		(pin "1"
-			(uuid "2c8250c1-9c78-4e5b-9db4-5b53b9ea1543")
-		)
-		(pin "10"
-			(uuid "1616403c-a72e-40ab-84f2-68316ac6cc98")
-		)
-		(pin "11"
-			(uuid "f2aa9c3d-10d5-48fe-92d9-0b2262a3451e")
-		)
-		(pin "12"
-			(uuid "de905761-26aa-4e19-86b8-448b33948dbd")
-		)
-		(pin "9"
-			(uuid "6594b7ed-ba91-45d9-9ffd-7227c973df00")
-		)
-		(pin "8"
-			(uuid "98e86219-1b52-4419-be4b-322024f30dad")
-		)
-		(pin "4"
-			(uuid "bfc3840a-c65e-4ea2-8761-f28a6720a8d8")
 		)
 		(pin "13"
-			(uuid "26c3d35d-572d-435a-8d96-1a867b0ca94a")
+			(uuid "1a065bc7-aed0-426d-a4c7-bcb6936fdefe")
+		)
+		(pin "14"
+			(uuid "2ce974ca-780a-45e1-ae48-c41a137f37de")
 		)
 		(pin "5"
-			(uuid "edde6821-df4c-4242-ae5c-a7f09ff3cc50")
+			(uuid "1ef29452-cdee-4695-abb8-a059ab601bce")
+		)
+		(pin "11"
+			(uuid "d9c96de8-d4b9-48bf-89b5-a097e5b486df")
+		)
+		(pin "10"
+			(uuid "1f2fa14a-5840-4a7c-a654-25c8bbd2f4c6")
+		)
+		(pin "9"
+			(uuid "881f3c77-1636-4e60-82d8-ce75316b6225")
+		)
+		(pin "3"
+			(uuid "2cff7cc3-25ca-4ea0-9d48-b20d51031a71")
+		)
+		(pin "12"
+			(uuid "f084e2e3-b49c-48c0-ad10-b57903b182c2")
+		)
+		(pin "8"
+			(uuid "24e6160a-1284-4e5f-a519-2432fdf11e1d")
 		)
 		(pin "7"
-			(uuid "eaf70d14-4077-4b62-b0bb-7aad348e6734")
+			(uuid "67bd7076-ece2-4874-8e75-cb3e6506c1b6")
+		)
+		(pin "2"
+			(uuid "2f2ffc65-e37f-4eba-be92-ca7e1ae5ee75")
+		)
+		(pin "1"
+			(uuid "84cc01e0-4c7e-4953-a47a-9bf2f3642971")
+		)
+		(pin "6"
+			(uuid "cbd3efed-b1f9-4640-b38d-4c20e8b04c25")
+		)
+		(pin "4"
+			(uuid "b02ae2fd-e02f-46d9-b8b1-df0f0a06f1c7")
 		)
 		(instances
 			(project ""
 				(path "/dd2fa5d1-1d39-4336-8d0e-915c0713d390/c77b21d9-0e87-4fa3-9c09-1a7ac524f436"
 					(reference "U4")
-					(unit 5)
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS01")
-		(at 137.16 109.22 0)
-		(unit 2)
+		(lib_id "Connector:TestPoint")
+		(at 157.48 105.41 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8580d529-9f4d-46bf-b132-2a7b2abce902")
+		(uuid "770d1c9e-c87d-4c89-8680-00a94042d339")
+		(property "Reference" "TP5"
+			(at 160.02 100.8379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Select"
+			(at 160.02 103.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd70ba0-aa4d-44e5-bb60-60b04d85fb41")
+		)
+		(instances
+			(project "Clock and Power Supply"
+				(path "/dd2fa5d1-1d39-4336-8d0e-915c0713d390/c77b21d9-0e87-4fa3-9c09-1a7ac524f436"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS00")
+		(at 262.89 156.21 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83ee79df-d6e7-4a02-96b1-075c58b4e4db")
 		(property "Reference" "U4"
-			(at 137.1517 100.33 0)
+			(at 262.8817 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74LS01"
-			(at 137.1517 102.87 0)
+		(property "Value" "74LS00"
+			(at 262.8817 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2260,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 137.16 109.22 0)
+			(at 262.89 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,8 +2268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
-			(at 137.16 109.22 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 262.89 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,62 +2277,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
-			(at 137.16 109.22 0)
+		(property "Description" "quad 2-input NAND gate"
+			(at 262.89 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "14"
-			(uuid "978d5c9e-ec86-45bf-8a65-5f3422dbcb21")
-		)
-		(pin "6"
-			(uuid "5f394ea2-95f6-419b-b9d1-bc8ab64db2cb")
-		)
-		(pin "3"
-			(uuid "674a5345-d7c6-4cc5-a024-1612ea8a0d4a")
-		)
-		(pin "2"
-			(uuid "f6c7a0a2-c7ae-41e6-a7b3-20a3ab7a93e5")
-		)
-		(pin "1"
-			(uuid "2c8250c1-9c78-4e5b-9db4-5b53b9ea1544")
-		)
-		(pin "10"
-			(uuid "1616403c-a72e-40ab-84f2-68316ac6cc99")
-		)
-		(pin "11"
-			(uuid "f2aa9c3d-10d5-48fe-92d9-0b2262a3451f")
-		)
-		(pin "12"
-			(uuid "de905761-26aa-4e19-86b8-448b33948dbe")
-		)
-		(pin "9"
-			(uuid "6594b7ed-ba91-45d9-9ffd-7227c973df01")
-		)
-		(pin "8"
-			(uuid "98e86219-1b52-4419-be4b-322024f30dae")
-		)
-		(pin "4"
-			(uuid "bfc3840a-c65e-4ea2-8761-f28a6720a8d9")
 		)
 		(pin "13"
-			(uuid "26c3d35d-572d-435a-8d96-1a867b0ca94b")
+			(uuid "1a065bc7-aed0-426d-a4c7-bcb6936fdeff")
+		)
+		(pin "14"
+			(uuid "2ce974ca-780a-45e1-ae48-c41a137f37df")
 		)
 		(pin "5"
-			(uuid "edde6821-df4c-4242-ae5c-a7f09ff3cc51")
+			(uuid "1ef29452-cdee-4695-abb8-a059ab601bcf")
+		)
+		(pin "11"
+			(uuid "d9c96de8-d4b9-48bf-89b5-a097e5b486e0")
+		)
+		(pin "10"
+			(uuid "1f2fa14a-5840-4a7c-a654-25c8bbd2f4c7")
+		)
+		(pin "9"
+			(uuid "881f3c77-1636-4e60-82d8-ce75316b6226")
+		)
+		(pin "3"
+			(uuid "2cff7cc3-25ca-4ea0-9d48-b20d51031a72")
+		)
+		(pin "12"
+			(uuid "f084e2e3-b49c-48c0-ad10-b57903b182c3")
+		)
+		(pin "8"
+			(uuid "24e6160a-1284-4e5f-a519-2432fdf11e1e")
 		)
 		(pin "7"
-			(uuid "eaf70d14-4077-4b62-b0bb-7aad348e6735")
+			(uuid "67bd7076-ece2-4874-8e75-cb3e6506c1b7")
+		)
+		(pin "2"
+			(uuid "2f2ffc65-e37f-4eba-be92-ca7e1ae5ee76")
+		)
+		(pin "1"
+			(uuid "84cc01e0-4c7e-4953-a47a-9bf2f3642972")
+		)
+		(pin "6"
+			(uuid "cbd3efed-b1f9-4640-b38d-4c20e8b04c26")
+		)
+		(pin "4"
+			(uuid "b02ae2fd-e02f-46d9-b8b1-df0f0a06f1c8")
 		)
 		(instances
 			(project ""
 				(path "/dd2fa5d1-1d39-4336-8d0e-915c0713d390/c77b21d9-0e87-4fa3-9c09-1a7ac524f436"
 					(reference "U4")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -2281,25 +2479,25 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS01")
-		(at 262.89 139.7 0)
-		(unit 3)
+		(lib_id "74xx:74LS00")
+		(at 137.16 109.22 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee6c16e8-7568-4f44-8faa-92f349902a5c")
+		(uuid "d37d0658-5e97-4406-b4cb-ee99128f5376")
 		(property "Reference" "U4"
-			(at 262.8817 130.81 0)
+			(at 137.1517 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74LS01"
-			(at 262.8817 133.35 0)
+		(property "Value" "74LS00"
+			(at 137.1517 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2505,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 262.89 139.7 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,8 +2513,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
-			(at 262.89 139.7 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,94 +2522,96 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
-			(at 262.89 139.7 0)
+		(property "Description" "quad 2-input NAND gate"
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "14"
-			(uuid "978d5c9e-ec86-45bf-8a65-5f3422dbcb22")
-		)
-		(pin "6"
-			(uuid "5f394ea2-95f6-419b-b9d1-bc8ab64db2cc")
-		)
-		(pin "3"
-			(uuid "674a5345-d7c6-4cc5-a024-1612ea8a0d4b")
-		)
-		(pin "2"
-			(uuid "f6c7a0a2-c7ae-41e6-a7b3-20a3ab7a93e6")
-		)
-		(pin "1"
-			(uuid "2c8250c1-9c78-4e5b-9db4-5b53b9ea1545")
-		)
-		(pin "10"
-			(uuid "1616403c-a72e-40ab-84f2-68316ac6cc9a")
-		)
-		(pin "11"
-			(uuid "f2aa9c3d-10d5-48fe-92d9-0b2262a34520")
-		)
-		(pin "12"
-			(uuid "de905761-26aa-4e19-86b8-448b33948dbf")
-		)
-		(pin "9"
-			(uuid "6594b7ed-ba91-45d9-9ffd-7227c973df02")
-		)
-		(pin "8"
-			(uuid "98e86219-1b52-4419-be4b-322024f30daf")
-		)
-		(pin "4"
-			(uuid "bfc3840a-c65e-4ea2-8761-f28a6720a8da")
 		)
 		(pin "13"
-			(uuid "26c3d35d-572d-435a-8d96-1a867b0ca94c")
+			(uuid "1a065bc7-aed0-426d-a4c7-bcb6936fdf00")
+		)
+		(pin "14"
+			(uuid "2ce974ca-780a-45e1-ae48-c41a137f37e0")
 		)
 		(pin "5"
-			(uuid "edde6821-df4c-4242-ae5c-a7f09ff3cc52")
+			(uuid "1ef29452-cdee-4695-abb8-a059ab601bd0")
+		)
+		(pin "11"
+			(uuid "d9c96de8-d4b9-48bf-89b5-a097e5b486e1")
+		)
+		(pin "10"
+			(uuid "1f2fa14a-5840-4a7c-a654-25c8bbd2f4c8")
+		)
+		(pin "9"
+			(uuid "881f3c77-1636-4e60-82d8-ce75316b6227")
+		)
+		(pin "3"
+			(uuid "2cff7cc3-25ca-4ea0-9d48-b20d51031a73")
+		)
+		(pin "12"
+			(uuid "f084e2e3-b49c-48c0-ad10-b57903b182c4")
+		)
+		(pin "8"
+			(uuid "24e6160a-1284-4e5f-a519-2432fdf11e1f")
 		)
 		(pin "7"
-			(uuid "eaf70d14-4077-4b62-b0bb-7aad348e6736")
+			(uuid "67bd7076-ece2-4874-8e75-cb3e6506c1b8")
+		)
+		(pin "2"
+			(uuid "2f2ffc65-e37f-4eba-be92-ca7e1ae5ee77")
+		)
+		(pin "1"
+			(uuid "84cc01e0-4c7e-4953-a47a-9bf2f3642973")
+		)
+		(pin "6"
+			(uuid "cbd3efed-b1f9-4640-b38d-4c20e8b04c27")
+		)
+		(pin "4"
+			(uuid "b02ae2fd-e02f-46d9-b8b1-df0f0a06f1c9")
 		)
 		(instances
 			(project ""
 				(path "/dd2fa5d1-1d39-4336-8d0e-915c0713d390/c77b21d9-0e87-4fa3-9c09-1a7ac524f436"
 					(reference "U4")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS01")
-		(at 262.89 156.21 0)
-		(unit 4)
+		(lib_id "74xx:74LS00")
+		(at 232.41 142.24 0)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc3c36ef-c441-44aa-911d-4afabf1e0780")
+		(uuid "d97e3e1f-499b-4db0-a989-fe386cdee168")
 		(property "Reference" "U4"
-			(at 262.8817 147.32 0)
+			(at 238.76 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "74LS01"
-			(at 262.8817 149.86 0)
+		(property "Value" "74LS00"
+			(at 238.76 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 262.89 156.21 0)
+			(at 232.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,8 +2619,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
-			(at 262.89 156.21 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 232.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,62 +2628,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
-			(at 262.89 156.21 0)
+		(property "Description" "quad 2-input NAND gate"
+			(at 232.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "14"
-			(uuid "978d5c9e-ec86-45bf-8a65-5f3422dbcb23")
-		)
-		(pin "6"
-			(uuid "5f394ea2-95f6-419b-b9d1-bc8ab64db2cd")
-		)
-		(pin "3"
-			(uuid "674a5345-d7c6-4cc5-a024-1612ea8a0d4c")
-		)
-		(pin "2"
-			(uuid "f6c7a0a2-c7ae-41e6-a7b3-20a3ab7a93e7")
-		)
-		(pin "1"
-			(uuid "2c8250c1-9c78-4e5b-9db4-5b53b9ea1546")
-		)
-		(pin "10"
-			(uuid "1616403c-a72e-40ab-84f2-68316ac6cc9b")
-		)
-		(pin "11"
-			(uuid "f2aa9c3d-10d5-48fe-92d9-0b2262a34521")
-		)
-		(pin "12"
-			(uuid "de905761-26aa-4e19-86b8-448b33948dc0")
-		)
-		(pin "9"
-			(uuid "6594b7ed-ba91-45d9-9ffd-7227c973df03")
-		)
-		(pin "8"
-			(uuid "98e86219-1b52-4419-be4b-322024f30db0")
-		)
-		(pin "4"
-			(uuid "bfc3840a-c65e-4ea2-8761-f28a6720a8db")
 		)
 		(pin "13"
-			(uuid "26c3d35d-572d-435a-8d96-1a867b0ca94d")
+			(uuid "1a065bc7-aed0-426d-a4c7-bcb6936fdf01")
+		)
+		(pin "14"
+			(uuid "2ce974ca-780a-45e1-ae48-c41a137f37e1")
 		)
 		(pin "5"
-			(uuid "edde6821-df4c-4242-ae5c-a7f09ff3cc53")
+			(uuid "1ef29452-cdee-4695-abb8-a059ab601bd1")
+		)
+		(pin "11"
+			(uuid "d9c96de8-d4b9-48bf-89b5-a097e5b486e2")
+		)
+		(pin "10"
+			(uuid "1f2fa14a-5840-4a7c-a654-25c8bbd2f4c9")
+		)
+		(pin "9"
+			(uuid "881f3c77-1636-4e60-82d8-ce75316b6228")
+		)
+		(pin "3"
+			(uuid "2cff7cc3-25ca-4ea0-9d48-b20d51031a74")
+		)
+		(pin "12"
+			(uuid "f084e2e3-b49c-48c0-ad10-b57903b182c5")
+		)
+		(pin "8"
+			(uuid "24e6160a-1284-4e5f-a519-2432fdf11e20")
 		)
 		(pin "7"
-			(uuid "eaf70d14-4077-4b62-b0bb-7aad348e6737")
+			(uuid "67bd7076-ece2-4874-8e75-cb3e6506c1b9")
+		)
+		(pin "2"
+			(uuid "2f2ffc65-e37f-4eba-be92-ca7e1ae5ee78")
+		)
+		(pin "1"
+			(uuid "84cc01e0-4c7e-4953-a47a-9bf2f3642974")
+		)
+		(pin "6"
+			(uuid "cbd3efed-b1f9-4640-b38d-4c20e8b04c28")
+		)
+		(pin "4"
+			(uuid "b02ae2fd-e02f-46d9-b8b1-df0f0a06f1ca")
 		)
 		(instances
 			(project ""
 				(path "/dd2fa5d1-1d39-4336-8d0e-915c0713d390/c77b21d9-0e87-4fa3-9c09-1a7ac524f436"
 					(reference "U4")
-					(unit 4)
+					(unit 5)
 				)
 			)
 		)

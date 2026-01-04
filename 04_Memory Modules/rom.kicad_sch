@@ -11,6 +11,145 @@
 		(company "Marco Vettigli")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_EEPROM:28C256"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -607,6 +746,16 @@
 		)
 		(uuid "9afd0d64-962b-416a-9bee-211f54d76293")
 	)
+	(text "Decoupling cap"
+		(exclude_from_sim no)
+		(at 212.598 61.214 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b2eed1c0-7c94-4089-aa81-ce266d0e1f47")
+	)
 	(junction
 		(at 160.02 102.87)
 		(diameter 0)
@@ -715,6 +864,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 68.58) (xy 208.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c372c6-3043-488e-a285-74e31725f3de")
+	)
+	(wire
+		(pts
 			(xy 157.48 100.33) (xy 157.48 102.87)
 		)
 		(stroke
@@ -732,6 +891,16 @@
 			(type default)
 		)
 		(uuid "5b431cfb-eddf-4023-899a-5f1c06dfdac5")
+	)
+	(wire
+		(pts
+			(xy 214.63 76.2) (xy 215.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6703ce56-0d8c-40e6-964e-b41eedff7e88")
 	)
 	(wire
 		(pts
@@ -772,6 +941,16 @@
 			(type default)
 		)
 		(uuid "9113863d-317f-48b4-aba3-34b833f21d47")
+	)
+	(wire
+		(pts
+			(xy 209.55 68.58) (xy 208.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f2497c-fb6c-48bd-9fde-9da4e0248d35")
 	)
 	(wire
 		(pts
@@ -842,6 +1021,16 @@
 			(type default)
 		)
 		(uuid "c67b5c4c-083e-4dba-9874-6e2a9f72661c")
+	)
+	(wire
+		(pts
+			(xy 215.9 72.39) (xy 215.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9cabe7-40db-439a-9062-e439d876c2d0")
 	)
 	(wire
 		(pts
@@ -1209,6 +1398,28 @@
 		)
 		(uuid "e3911f5e-cfb3-4bad-a3bf-14cee8ad37e2")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 214.63 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb2e920a-a6e8-4c88-9e67-bdf2c3ca9ae6")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 209.55 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb7e9e9d-9530-4907-a292-4b4f134fe7aa")
+	)
 	(hierarchical_label "D2"
 		(shape tri_state)
 		(at 121.92 77.47 90)
@@ -1228,10 +1439,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "11db8bde-a583-4897-8d21-d0d1a16a8901")
-		(property "Reference" "U11"
-			(at 109.22 84.7246 90)
+		(property "Reference" "U10"
+			(at 139.446 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1449,7 @@
 			)
 		)
 		(property "Value" "28C256"
-			(at 109.22 87.2646 90)
+			(at 139.446 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1570,76 @@
 		(instances
 			(project "03_Memory"
 				(path "/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9/5d6cf42f-491f-45f7-834b-b917429b208c"
-					(reference "U11")
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39f1f6ea-d0c1-4fe8-a29a-5e6111ab853d")
+		(property "Reference" "C10"
+			(at 218.694 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 218.694 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+			(at 215.9 71.4248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16e30d99-5f6e-4de5-a15f-f3f9e4f9e689")
+		)
+		(pin "1"
+			(uuid "91b2fd8b-1802-4e81-809c-017929eb5be1")
+		)
+		(instances
+			(project "Memory Modules"
+				(path "/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9/5d6cf42f-491f-45f7-834b-b917429b208c"
+					(reference "C10")
 					(unit 1)
 				)
 			)

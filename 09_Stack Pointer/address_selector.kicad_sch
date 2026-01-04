@@ -9,6 +9,9 @@
 		(date "2025-11-16")
 		(rev "1.0")
 		(company "Marco Vettigli")
+		(comment 2 "By using or distributing it, you accept the terms of the GPL.")
+		(comment 3 "It comes with absolutely NO WARRANTY; for details, see the full license.")
+		(comment 4 "This software is licensed under the GNU General Public License (GPL).")
 	)
 	(lib_symbols
 		(symbol "74xx_IEEE:74LS245"
@@ -566,6 +569,28 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 113.03 43.18)
+		(end 198.12 146.05)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 29f313e3-59e9-4cfe-b4c8-cbf79785dc5e)
+	)
+	(text "Bus Driver"
+		(exclude_from_sim no)
+		(at 155.448 47.752 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "ebdc92e4-5877-486c-a6ee-66175f2bdf44")
 	)
 	(junction
 		(at 154.94 66.04)

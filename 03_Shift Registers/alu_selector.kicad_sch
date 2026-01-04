@@ -1012,7 +1012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a61b9480-1a1a-4534-9039-cd36d92f42cf")
-		(property "Reference" "U7"
+		(property "Reference" "U10"
 			(at 157.0833 66.04 0)
 			(effects
 				(font
@@ -1120,19 +1120,19 @@
 		(instances
 			(project "Shift Registers"
 				(path "/0bbead8f-a697-49a3-a523-e82b541d79df/1c81a464-d6d3-4091-8abc-25dbb97686e9"
-					(reference "U9")
+					(reference "U12")
 					(unit 1)
 				)
 				(path "/0bbead8f-a697-49a3-a523-e82b541d79df/7d4e5ddf-de15-484d-b168-7ee485d2ef5c"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/0bbead8f-a697-49a3-a523-e82b541d79df/ad9c6a51-1a08-48a4-bf98-de20c0b3ace8"
 					(reference "U10")
 					(unit 1)
 				)
+				(path "/0bbead8f-a697-49a3-a523-e82b541d79df/ad9c6a51-1a08-48a4-bf98-de20c0b3ace8"
+					(reference "U13")
+					(unit 1)
+				)
 				(path "/0bbead8f-a697-49a3-a523-e82b541d79df/c991ae6d-c124-4703-812b-feaebbda5d76"
-					(reference "U8")
+					(reference "U11")
 					(unit 1)
 				)
 			)
