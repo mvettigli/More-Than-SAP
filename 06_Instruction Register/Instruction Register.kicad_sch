@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Instruction Register")
-		(date "2025-11-14")
-		(rev "1.0")
+		(date "2026-01-04")
+		(rev "1.11")
 		(company "Marco Vettigli")
 	)
 	(lib_symbols
@@ -621,16 +621,16 @@
 		(uuid "83dff63a-7442-4a57-a61c-f888d803480e")
 	)
 	(no_connect
-		(at 123.19 187.96)
-		(uuid "012d931a-0b71-4575-9c55-f45a6c4a2e48")
-	)
-	(no_connect
 		(at 123.19 190.5)
 		(uuid "26d928f0-0a0b-47ac-802c-73afba7f5ac4")
 	)
 	(no_connect
-		(at 152.4 193.04)
-		(uuid "7e41f47b-928b-4fa2-8963-4b1f18f1c3c8")
+		(at 152.4 185.42)
+		(uuid "70cdf28d-bb77-43d9-98e5-fc882cf9ee81")
+	)
+	(no_connect
+		(at 152.4 187.96)
+		(uuid "fae5a6c5-55b1-45cd-ae2a-42661a1c03bf")
 	)
 	(bus_entry
 		(at 81.28 123.19)
@@ -2570,7 +2570,7 @@
 	)
 	(global_label "FS"
 		(shape input)
-		(at 152.4 185.42 180)
+		(at 152.4 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2580,7 +2580,7 @@
 		)
 		(uuid "04289ba3-40fb-4369-bb41-77780c34d532")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.1167 185.42 0)
+			(at 147.1167 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2922,7 @@
 	)
 	(global_label "SSR"
 		(shape input)
-		(at 123.19 185.42 180)
+		(at 152.4 190.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2932,7 +2932,7 @@
 		)
 		(uuid "34a13aa6-3a32-43d7-acbb-7658ba029bf9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5158 185.42 0)
+			(at 145.7258 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3362,7 @@
 	)
 	(global_label "~{FRO}"
 		(shape input)
-		(at 152.4 187.96 180)
+		(at 123.19 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3372,7 +3372,7 @@
 		)
 		(uuid "9c166c6e-63c2-4f11-a590-8b2ee0143654")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.7257 187.96 0)
+			(at 116.5157 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3912,7 @@
 	)
 	(global_label "~{FRI}"
 		(shape input)
-		(at 152.4 190.5 180)
+		(at 123.19 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3922,7 +3922,7 @@
 		)
 		(uuid "fb5f8d68-278c-4fda-8d4a-a7a55cc266e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.4514 190.5 0)
+			(at 117.2414 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
