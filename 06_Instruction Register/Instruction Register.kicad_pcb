@@ -14740,7 +14740,7 @@
 		)
 		(property "Value" "74LS04"
 			(at 3.81 17.57 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "387e5dde-0739-4d0c-a53f-355a8602cfb3")
 			(effects
 				(font

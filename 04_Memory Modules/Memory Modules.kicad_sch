@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Memory Modules")
-		(date "2025-12-08")
-		(rev "v1.2")
+		(date "2026-01-05")
+		(rev "v1.21")
 		(company "Marco Vettigli")
 	)
 	(lib_symbols
@@ -420,6 +420,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -532,6 +639,16 @@
 		)
 		(uuid "13349d74-e326-4c32-9d86-071b4f18ca56")
 	)
+	(text "ERC"
+		(exclude_from_sim no)
+		(at 233.172 149.606 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "34b44dbc-f135-4c12-bd41-e1921a559b14")
+	)
 	(text "RAM Module (64K)"
 		(exclude_from_sim no)
 		(at 148.336 67.31 0)
@@ -542,9 +659,9 @@
 		)
 		(uuid "38cedcac-7c7d-44a2-a378-8352f4b88c12")
 	)
-	(text "ERC"
+	(text "Test Points"
 		(exclude_from_sim no)
-		(at 267.462 149.606 0)
+		(at 261.112 149.606 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -602,7 +719,7 @@
 		)
 		(uuid "e7468638-2111-4a2b-80ea-90865fca8e7b")
 	)
-	(text_box "===== Pin Legend =====\n\n~{ROO} = ROm data Out\n~{RAO} = RAm data Out\n~{RAI} = RAm data In\n\n~{MAO} = Memory Address Out\n~{MLI} = Memory Less significant byte In\n~{MMI} = Memory Most significant byte In\n~{MAR} = Memory Address Reset\nMCE = Memory address Count Enabled\n"
+	(text_box "===== Pin Legend =====\n\n~{ROO} = ROm data Out\n~{RAO} = RAm data Out\n~{RAI} = RAm data In\n\n~{MAO} = Memory Address Out\n~{MLI} = Memory Less significant byte In\n~{MMI} = Memory Most significant byte In\nMAR = Memory Address Reset\nMCE = Memory address Count Enabled\n"
 		(exclude_from_sim no)
 		(at 16.51 16.51 0)
 		(size 43.18 24.13)
@@ -1075,6 +1192,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 161.29) (xy 261.62 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588a388b-39e1-4b2d-a4d1-3b5c469c015c")
+	)
+	(wire
+		(pts
 			(xy 233.68 82.55) (xy 233.68 80.01)
 		)
 		(stroke
@@ -1082,6 +1209,16 @@
 			(type default)
 		)
 		(uuid "59c3f261-c0c9-4124-a840-a9a57efda81e")
+	)
+	(wire
+		(pts
+			(xy 257.81 156.21) (xy 261.62 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a60a7e0-e429-47c8-be98-658934098a6b")
 	)
 	(wire
 		(pts
@@ -1172,6 +1309,16 @@
 			(type default)
 		)
 		(uuid "68f3ac71-5ff1-4732-a91e-c590d5a55eb8")
+	)
+	(wire
+		(pts
+			(xy 257.81 158.75) (xy 261.62 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691ceb44-f903-4de5-97f0-feda7e4ef356")
 	)
 	(wire
 		(pts
@@ -3629,7 +3776,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 262.89 158.75 180)
+		(at 257.81 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3639,7 +3786,7 @@
 		)
 		(uuid "7c65082a-7d8f-4e77-9ac9-450f59db0dae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.0343 158.75 0)
+			(at 250.9543 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +3908,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 262.89 156.21 180)
+		(at 257.81 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3771,7 +3918,7 @@
 		)
 		(uuid "88e2c48c-19da-421a-9b42-425247fd3afe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.2762 156.21 0)
+			(at 251.1962 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,6 +4249,28 @@
 		(uuid "aa16b88a-0288-4673-bdf4-1cecbd6360b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 28.7043 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 228.6 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa80ecf0-aa86-404d-91b8-85889ce524df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.9862 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,6 +5028,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 228.6 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3eb4f0b-70f6-44c6-88d6-e815f296fb62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.7443 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D0"
 		(shape tri_state)
 		(at 139.7 110.49 270)
@@ -5048,6 +5239,28 @@
 		(uuid "f9584c9c-28b9-464a-b8b6-92ef482c9d66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.4962 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 257.81 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9ec128f-fbe5-45b2-8fea-b17d0194ad2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.2567 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,6 +5517,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 228.6 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3332373b-76eb-44f0-8bb8-b099b5e1506f")
+		(property "Reference" "#FLG04"
+			(at 230.505 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 232.41 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 228.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4200ea5-8ce0-4854-8289-bb348686a0f5")
+		)
+		(instances
+			(project "Memory Modules"
+				(path "/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 160.02 177.8 0)
 		(mirror y)
@@ -5394,26 +5674,26 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 262.89 158.75 270)
+		(lib_id "Connector:TestPoint")
+		(at 261.62 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ab6c068-9bd6-40d5-8883-63e449d9c463")
-		(property "Reference" "#FLG02"
-			(at 264.795 158.75 0)
+		(uuid "5688cb5b-6b78-4049-acae-91732b800917")
+		(property "Reference" "TP1"
+			(at 266.7 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 266.7 158.7499 90)
+		(property "Value" "GND"
+			(at 267.462 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,8 +5701,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 262.89 158.75 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 261.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 158.75 0)
+			(at 261.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,8 +5719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 262.89 158.75 0)
+		(property "Description" "test point"
+			(at 261.62 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,12 +5729,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e37b23e-f55f-4474-a380-5fe4a190fd6a")
+			(uuid "1052a2da-9231-43b3-80f1-cd8d99924c65")
 		)
 		(instances
 			(project "Memory Modules"
 				(path "/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9"
-					(reference "#FLG02")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5462,16 +5742,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 262.89 156.21 270)
+		(at 228.6 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "953c5bb8-230f-4519-a934-2ef880c637c4")
-		(property "Reference" "#FLG01"
-			(at 264.795 156.21 0)
+		(uuid "766c2039-df0c-4527-8a58-eb15b4bf6bd6")
+		(property "Reference" "#FLG03"
+			(at 230.505 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5760,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 266.7 156.2099 90)
+			(at 232.41 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +5769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 156.21 0)
+			(at 228.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +5778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 156.21 0)
+			(at 228.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5787,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 262.89 156.21 0)
+			(at 228.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,12 +5796,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "934e09b7-31c0-41a4-a5c4-4828f2534293")
+			(uuid "fd656cb1-eb9e-4f8f-97fe-000fcabde631")
 		)
 		(instances
-			(project ""
+			(project "Memory Modules"
 				(path "/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9"
-					(reference "#FLG01")
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94cec69f-69cc-4d7f-b848-a529bf924b38")
+		(property "Reference" "TP3"
+			(at 266.7 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "CLK"
+			(at 267.462 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 261.62 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac29b152-e581-41d3-a144-9f27a0aaca3c")
+		)
+		(instances
+			(project "Memory Modules"
+				(path "/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5702,6 +6049,73 @@
 			(project "03_Memory"
 				(path "/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca3da8c7-1670-40ce-8350-5d41c5581866")
+		(property "Reference" "TP2"
+			(at 266.7 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 267.462 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 261.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b688b4-fba0-486e-bfbf-890a0bdb79a3")
+		)
+		(instances
+			(project "Memory Modules"
+				(path "/67f85d1f-fa07-4d32-87fd-2c14cd08dcf9"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
